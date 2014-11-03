@@ -21,11 +21,12 @@
             <img style="z-index: 1001; position: fixed; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
+    
         <div class="container">
             <div class="jumbotron">
                 <div class="media">
-                    <a class="pull-left" href="#">
-                        <img src="Images/toast.jpg" class="img-circle  toastrimagsize "
+                    <a class="pull-left visible-lg visible-md visible-sm" href="#">
+                        <img src="Images/toast.jpg" class="img-circle  img-responsive"
                             alt="Responsive Image" />
                     </a>
                     <div class="media-body">
