@@ -25,41 +25,38 @@
             <div class="jumbotron">
                 <div class="media">
                     <a class="pull-left" href="#">
-                        <img src="Images/toast.jpg" class="
-                            img-circle "
+                        <img src="Images/toast.jpg" class="img-circle  toastrimagsize "
                             alt="Responsive Image" />
                     </a>
                     <div class="media-body">
-                        <h1>How to use toastr from the Code Behind File</h1>
+                        <h2>How to use toastr from the Code Behind File</h2>
                     </div>
                 </div>
             </div>
 
-
-
             <div class="list-group">
-                <a id="toastrDef" data-toggle="popover" title="toastr" data-content="toastr was created by Hans Fjällemark and John Papa using HTML5 and JavaScript. toastr's are popup alerts that can be used to provide a more responsive
+                <a id="toastrDef"   data-toggle="popover" title="toastr" data-content="toastr was created by Hans Fjällemark and John Papa using HTML5 and JavaScript. toastr's are popup alerts that can be used to provide a more responsive
                  and more modern replacement for traditional alert dialiog boxes. You can see the code at  https://github.com/CodeSeven">
-                    <h3>What is a toastr ?</h3>
+                    <h3>What is a toastr ?   Try these buttons.</h3>
                 </a>
+                                 <div class="panel-body">
+                                <asp:Button ID="btnSuccess" runat="server" CssClass="btn btn-success" Text="Success" OnClick="btnSuccess_Click" Width="100px" />
+                                <asp:Button ID="btnError" runat="server" CssClass="btn  btn-danger" Text="Error" OnClick="btnError_Click" Width="100px" />
+                                <asp:Button ID="btnInfo" runat="server" CssClass="btn btn btn-info" Text="Information" OnClick="btnInfo_Click" Width="100px" />
+                                <asp:Button ID="btnWarning" runat="server" CssClass="btn btn btn-warning" Text="Warning" OnClick="btnWarning_Click" Width="100px" />
+                            </div>
                 <a href="#" class="list-group-item active">
-                    <h4 class="list-group-item-heading">Try these  buttons</h4>
-                    <p class="list-group-item-text">For an example of what toastr does try the diffrent toatr types.</p>
+                   
+                    <p class="list-group-item-text">We are accustomed to using toastrs with HTML inputs that call a jQuery toastr popup.</p>
                     <p class="list-group-item-text">The diffrence here is that these buttons are SERVER side ASP buttons with code behind events that call the JavaScript toastr functions.</p>
+                    <p class="list-group-item-text">This allows us to use the advantage of rapid development while still using the benifits of JavaScript and jQuery.</p>
                     <p class="list-group-item-text">It can't get any simpler than this.</p>
                 </a>
 
                 <div class="panel panel-default">
                     <div class="row">
                         <div class=" col-lg-6">
-                            <div class="panel-body">
-
-                                <h3>Test the toastr popup message</h3>
-                                <asp:Button ID="btnSuccess" runat="server" CssClass="btn btn-success" Text="Success" OnClick="btnSuccess_Click" Width="100px" />
-                                <asp:Button ID="btnError" runat="server" CssClass="btn  btn-danger" Text="Error" OnClick="btnError_Click" Width="100px" />
-                                <asp:Button ID="btnInfo" runat="server" CssClass="btn btn btn-info" Text="Information" OnClick="btnInfo_Click" Width="100px" />
-                                <asp:Button ID="btnWarning" runat="server" CssClass="btn btn btn-warning" Text="Warning" OnClick="btnWarning_Click" Width="100px" />
-                            </div>
+           
 
 
                         </div>
@@ -331,6 +328,11 @@ $(function(){
 
         </div>
         <script>
+
+
+
+
+
             $(function () {
 
                 $('#toastrTestButton').click(function () {

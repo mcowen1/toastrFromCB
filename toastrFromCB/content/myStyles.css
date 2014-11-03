@@ -381,10 +381,10 @@ color: yellow;
  color:darkmagenta;
 }
 
-.toast-top-center_ok { 
-    top: 4750px; 
+.toast-top-center-ok { 
+    top: 30%; 
     left: 30%; 
-    margin-left: -150px; 
+
   
 } 
 
@@ -393,5 +393,10 @@ color: yellow;
     max-width: 100%;
     width: 100%;
     height: auto;
+}
+
+.toastrimagsize {
+
+    width:200px;
 }
 
