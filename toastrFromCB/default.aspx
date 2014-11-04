@@ -35,7 +35,12 @@
                 </div>
             </div>
 
+
+           
+
             <div class="list-group">
+               
+
                 <a id="toastrDef"   data-toggle="popover" title="toastr" data-content="toastr was created by Hans Fjällemark and John Papa using HTML5 and JavaScript. toastr's are popup alerts that can be used to provide a more responsive
                  and more modern replacement for traditional alert dialiog boxes. You can see the code at  https://github.com/CodeSeven">
                     <h3>What is a toastr ?   Try these buttons.</h3>
@@ -54,6 +59,8 @@
                     <p class="list-group-item-text">It can't get any simpler than this.</p>
                 </a>
 
+                
+                
                 <div class="panel panel-default">
                     <div class="row">
                         <div class=" col-lg-6">
@@ -181,7 +188,7 @@
                                                 <p>
                                                     You can put this JavaScript between <mark>&lt;script&gt;</mark> tags on your HTML page or, preferably, place the code inside your own <mark>Script File i.e. myScripts.js</mark>
                                                     <br />
-                                                    NOTE: Do <mark>not</mark> put this javascript code inside the document ready function or in will not work.
+                                                    NOTE: Do <mark>not</mark> put this javascript code inside the document ready function or it will not work.
 
                                                 </p>
 
@@ -222,7 +229,7 @@ $(function(){
         }
 
                                                 </pre>
-                                                <p>That looks a bit complicated except that ,you as the user, don't have do any more than to call
+                                                <p>That looks a bit complicated but you don't have do any more than to call
                                                 <mark>DisplayToastr(message,type) </mark> from what ever event you would like to send the popup message.</p>
                                                 <p>Where </p>
                                                 <ul>
@@ -257,7 +264,7 @@ $(function(){
                 bool isAuthorized = CheckDataBaseRecordForUserAuthorization(userID);
                 if(isAurthorized)
                 {
-                    display = userID + " has been Success authorized";
+                    display = userID + " has been sucessfully authorized";
                     type =     "Success";                                                   
                 }
                 else
