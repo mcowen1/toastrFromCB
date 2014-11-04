@@ -35,12 +35,7 @@
                 </div>
             </div>
 
-
-           
-
             <div class="list-group">
-               
-
                 <a id="toastrDef"   data-toggle="popover" title="toastr" data-content="toastr was created by Hans Fjällemark and John Papa using HTML5 and JavaScript. toastr's are popup alerts that can be used to provide a more responsive
                  and more modern replacement for traditional alert dialiog boxes. You can see the code at  https://github.com/CodeSeven">
                     <h3>What is a toastr ?   Try these buttons.</h3>
@@ -58,15 +53,9 @@
                     <p class="list-group-item-text">This allows us to use the advantage of rapid development while still using the benifits of JavaScript and jQuery.</p>
                     <p class="list-group-item-text">It can't get any simpler than this.</p>
                 </a>
-
-                
-                
                 <div class="panel panel-default">
                     <div class="row">
                         <div class=" col-lg-6">
-           
-
-
                         </div>
                         <div class=" col-lg-6">
                             <div class="panel-body">
@@ -78,7 +67,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="panel-body">
                         <div class='row'>
                             <h2>Here is how it's done.</h2>
@@ -131,11 +119,8 @@
                                             </div>
                                             <div class="col-sm-6">
                                                 <img src="Images/toastrStep3.png" />
-
                                             </div>
-
                                         </div>
-
                                     </div>
                                     <div class="tab-pane fade adbordereddiv" id="step3">
                                         <h3>Step 3 Add an ASP Button</h3>
@@ -177,9 +162,8 @@
                                                 <p>The particular one I'm using comes from my own CSS file which illustrates that you can write your own CSS for toastr</p>
                                                 <pre>
 .toast-top-center_ok { 
-    top: 450px; 
+    top: 30%; 
     left: 30%; 
-    margin-left: -150px; 
   
 } 
                                                 </pre>
